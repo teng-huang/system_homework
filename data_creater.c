@@ -36,10 +36,10 @@ int main()
 			size += printf("20%02u%02u%02d-%02u:%02u:%02u, Alex, %s Door,\n", y, m + 1, d + 1, h, mm, s, s % 2 == 0 ? "In" : "Out");
 			break;
 		case 1:
-			size += printf("20%02u%02u%02d-%02u:%02u:%02u, Janet %s Door,\n", y, m + 1, d + 1, h, mm, s, s % 2 == 0 ? "In" : "Out");
+			size += printf("20%02u%02u%02d-%02u:%02u:%02u, Janet, %s Door,\n", y, m + 1, d + 1, h, mm, s, s % 2 == 0 ? "In" : "Out");
 			break;
 		default:
-			size += printf("20%02u%02u%02d-%02u:%02u:%02u, Mark %s Door,\n", y, m + 1, d + 1, h, mm, s, s % 2 == 0 ? "In" : "Out");
+			size += printf("20%02u%02u%02d-%02u:%02u:%02u, Mark, %s Door,\n", y, m + 1, d + 1, h, mm, s, s % 2 == 0 ? "In" : "Out");
 			break;
 		}
 	}
